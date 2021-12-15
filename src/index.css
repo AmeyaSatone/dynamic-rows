@@ -1,77 +1,12 @@
-body {
-	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-		sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+.accordion-section {
+	margin-bottom: 15px;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+.header-section {
+	margin-bottom: 45px;
+	margin-top: 50px;
 }
 
-.collapse {
-	background-color: #a2de96;
-	border: none;
-	outline: none;
-	font-size: 5px;
-}
-
-.active,
-.collapse:hover {
-	background-color: #438a5e;
-}
-
-.text {
-	background-color: #e1ffc2;
-	display: none;
-	font-size: 15px;
-}
-
-.div-2 {
-	background-color: #dd14149a;
-	margin-bottom: 10px;
-	font-size: medium;
-}
-.asd {
-	border-color: #a2de96;
-	font-size: 15px;
-}
-
-.collapsible {
-	background-color: #777;
-	color: white;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 15px;
-}
-
-/* .collapsible span {
-	background-color: #777;
-	color: white;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 15px;
-} */
-
-.active,
-.collapsible:hover {
-	background-color: #555;
-}
-
-.content {
-	padding: 0 18px;
-	display: none;
-	overflow: hidden;
-	background-color: #f1f1f1;
+.button-margin {
+	margin-left: 20px;
 }
