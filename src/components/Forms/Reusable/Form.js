@@ -43,7 +43,7 @@ function Form({ template, onSubmit, watchFields, validate }) {
 						</h2>
 						<div
 							id={`collapse${title}`}
-							className="accordion-collapse collapse"
+							className="accordion-collapse collapse show"
 							aria-labelledby={title}
 							data-bs-parent="#accordionExample"
 						>
