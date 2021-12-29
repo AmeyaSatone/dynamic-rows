@@ -1,13 +1,11 @@
-import JobForm from './pages/JobForm';
+import JobForm from "./pages/JobForm";
+import React from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <div className="container">
-        <JobForm/>
-      </div>
-    </div>
-  );
+	return (
+		<div className="App">
+			<JobForm />
+		</div>
+	);
 }
-
 export default App;

@@ -1,60 +1,10 @@
 import React from "react";
 import Form from "../components/Forms/Reusable/Form";
-
-function JobForm(props) {
-	let template = {
-		title: "Create Model Metadata",
-		projectID: "test projectID",
-		version: "test version",
-		sections: [
-			{
-				title: "Model",
-				fields: [
-					{
-						title: "Model Type",
-						type: "text",
-						name: "modelType",
-					},
-				],
-			},
-			{
-				title: "Study",
-				fields: [
-					{
-						title: "Study Id",
-						type: "text",
-						name: "studyId",
-					},
-					{
-						title: "Study Version",
-						type: "text",
-						name: "studyVersion",
-					},
-				],
-			},
-			{
-				title: "Entity",
-				fields: [
-					{
-						title: "Entity Id",
-						type: "text",
-						name: "entityId",
-					},
-					{
-						title: "Entity Version",
-						type: "text",
-						name: "entityVersion",
-					},
-				],
-			},
-		],
-		resultTable: "restult table",
-		study_completes: "",
-	};
-
+import { commentData } from "../templates/metadataTemplate";
+function JobForm() {
 	return (
 		<Form
-			template={template}
+			template={commentData}
 			watchFields={["firstname", "include_portfolio"]}
 			validate={validate}
 			onSubmit={onSubmit}
@@ -63,6 +13,7 @@ function JobForm(props) {
 }
 
 function onSubmit(values) {
+	alert(values);
 	console.log(values);
 }
 

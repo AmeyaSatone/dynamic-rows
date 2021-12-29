@@ -1,17 +1,30 @@
- {
-    "projectID" :"test projectID",
-    "version" :"test version",
-    "model" :{
-        "modelType":"sdfsdfsfdsfd"
-    }
-    ,
-        "studyId":"test study id",
-        "studyVersion":"test study version"
-            ,
-
-        "entityId":"test entity id",
-        "entityVersion":"test entity version"
-    ,
-    "resultTable" :"restult table",
-    "study_completes":""
+{
+	"projectID": "test projectID",
+	"version": "test version",
+	"projectID1": "test projectID",
+	"version1": "test version",
+	"study": {
+		"studyId": "test study id",
+		"studyVersion": "test study version",
+		"entity": {
+			"entityId": "test entity id",
+			"entityVersion": "test entity version",
+			"data": {
+				"entityId": "test entity id",
+				"entityVersion": "test entity version"
+			}
+		}
+	},
+	"study1": {
+		"studyId": "test study id",
+		"studyVersion": "test study version",
+		"entity": {
+			"entityId": "test entity id",
+			"entityVersion": "test entity version",
+			"data": {
+				"entityId": "test entity id",
+				"entityVersion": "test entity version"
+			}
+		}
+	}
 }
