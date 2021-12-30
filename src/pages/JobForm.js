@@ -13,7 +13,7 @@ function JobForm() {
 }
 
 function onSubmit(values) {
-	alert(values);
+	// alert(values);
 	console.log(values);
 }
 

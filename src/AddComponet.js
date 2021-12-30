@@ -6,19 +6,19 @@ import { Button } from "semantic-ui-react";
 export const AddContext = (prop) => {
 	const { control } = useForm({
 		defaultValues: {
-			_id: "a",
-			name: "s",
-			input: {
-				artifact: { flavour: "n", path: "v" },
-				data: {
-					table_type: "f",
-					table: "g",
-					context: [
-						{ key: "j", value: "k" },
-						{ key: "j", value: "k" },
-					],
-				},
-			},
+			// _id: "a",
+			// name: "s",
+			// input: {
+			// 	artifact: { flavour: "n", path: "v" },
+			// 	data: {
+			// 		table_type: "f",
+			// 		table: "g",
+			// 		context: [
+			// 			{ key: "j", value: "k" },
+			// 			{ key: "j", value: "k" },
+			// 		],
+			// 	},
+			// },
 		},
 	});
 	const { register } = prop;
@@ -50,14 +50,18 @@ export const AddContext = (prop) => {
 							defaultValue={field.value}
 						/>
 
-						<Button type="button" onClick={() => remove(index)}>
-							&#8722;
+						<Button type="button" className="btn" onClick={() => remove(index)}>
+							Delete
 						</Button>
 					</Row>
 				);
 			})}
-			<Button type="button" onClick={() => append({ key: "", value: "" })}>
-				Add Context
+			<Button
+				type="button"
+				className="btn"
+				onClick={() => append({ key: "", value: "" })}
+			>
+				Add New
 			</Button>
 		</div>
 	);

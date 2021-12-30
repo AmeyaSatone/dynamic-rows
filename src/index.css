@@ -3,10 +3,13 @@
 }
 
 .header-section {
-	margin-bottom: 45px;
-	margin-top: 50px;
 }
 
 .button-margin {
 	margin-left: 20px;
+}
+.bottomFixButtionComponent {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
 }
